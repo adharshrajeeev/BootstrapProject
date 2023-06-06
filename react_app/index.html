@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+
+        <!-- ========================NAVBAR SECTION ================================== -->
+
+
+        <nav class="navbar navbar-expand-lg sticky-top " style="background-color:#ff5464;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" style="color: white;font-size: x-large;">Essence</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav" >
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#section1" style="color: white;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section2" style="color: white;">Foods</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section3" style="color: white;">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main class="container-fluid">
+            <div class="container-fluid" id="section1">
+                <div class="row justify-content-center align-items-center" style="height: 100vh;">
+                    <div class="col-md-6 text-center">
+                        <img src="./assets/image1.jpg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="display-1">Discover the best food & drinks in Kochi</h4>
+                        <p class="text-center">Explore curated lists of top restaurants, cafes, pubs, and bars in Kochi, based on trends.</p>
+                    </div>
+                </div>
+            </div>
+
+            <section class="container mt-5" style="height: 100vh;" >
+                <div class="row row-cols-1 row-cols-md-3 g-4" id="section2">
+                    <div class="col">
+                        <div class="card" >
+                            <img src="./assets/image1.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Jeff Biriyani</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./assets/image2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Ambur Biriyani</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./assets/image3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sweets & Orange</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./assets/image4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Hakt Stake</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./assets/image5.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Losie Bakers</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./assets/image6.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Ceylon Bakers</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="container mt-2" style="height: 90vh;" id="section3">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-md-6">
+                            <p class="h1">Let’s talk how I can help you!</p>
+                        </div>
+                        <div class="col-md-6 p-5">
+                            <form id="subForm" >
+                                <div class="mb-3 userNameValidate ">
+                                    <label for="exampleInputEmail1" class="form-label">User Name</label>
+                                    <input type="text" class="form-control userInput" id="userName"
+                                        aria-describedby="user name"
+                                        name="userName"
+                                        >
+                                    <div id="NameError" style="color: red;font-size:12px;"></div>
+                                </div>
+                                <div class="mb-3 userEmailValidate">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="userEmail"
+                                        aria-describedby="emailHelp"
+                                        name="email"
+                                        >
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                    </div>
+                                    <div id="EmailError" style="color: red;font-size:12px;"></div>
+                                </div>
+                                <div class="mb-3 userMessageValidate">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Leave a Message here"
+                                            id="userMessage" style="height: 100px"
+                                            name="messageBox"
+                                            ></textarea>
+                                        <label for="floatingTextarea2">Message</label>
+                                    </div>
+                                    <div id="MessageError" style="color: red;font-size:12px;"></div>
+                                </div>
+                                <button type="button" id="submitButton" class="btn btn-primary" onclick="return validateForm()">Submit</button>
+                            </form>
+                            <div class="alert alert-primary formSuccess mb-3 mt-2" role="alert">
+                                Contact Form Submitted Succesfully
+                              </div>
+                        </div>
+                    </div>
+                </section>
+
+            </section>
+
+        </main>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

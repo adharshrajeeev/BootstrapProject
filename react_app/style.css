@@ -1,0 +1,44 @@
+*{
+    scroll-behavior: smooth;
+}
+
+li a{
+    color: white;
+}
+
+#NameError #EmailError #MessageError{
+    color: red;
+    font-size: 12px;
+
+}
+
+
+.userNameValidate.errorName input {
+    border-color: #ff0000;
+}
+.userEmailValidate.errorEmail input {
+    border-color: #ff0000;
+}
+.userMessageValidate.errorMessage textarea {
+    border-color: #ff0000;
+}
+
+
+.userNameValidate.successName input {
+    border-color: #09c372;
+}
+.userEmailValidate.successEmail input {
+    border-color: #09c372;
+}
+.userMessageValidate.successMessage textarea {
+    border-color: #09c372;
+}
+
+.formSuccess{
+    display: none;
+}
+
+.card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+}
